@@ -1,6 +1,10 @@
 import React, { Component } from "react"
 import Project from "./Project"
 import portfolio1 from "../images/portfolio1.png"
+import portfolio2 from "../images/portfolio2.png"
+import portfolio3 from "../images/portfolio3.png"
+import portfolio4 from "../images/portfolio4.png"
+import portfolio5 from "../images/portfolio5.png"
 
 export default class Projects extends Component {
   constructor(props) {
@@ -20,47 +24,43 @@ export default class Projects extends Component {
         },
         {
           id: 2,
-          cardImage: portfolio1,
+          cardImage: portfolio2,
           imageAlt: "Page Screenshot",
-          cardTitle: "Rock Paper Sccissors",
-          cardSubtitle: "Game",
-          cardText: ["Html5", "Css3", "jQuerry", "Javascript"],
+          cardTitle: "TodoList",
+          cardSubtitle: "App",
+          cardText: ["Html5", "Css3", "React", "Javascript"],
           githubLink: "https://github.com/k4is3r",
-          demoLink:
-            "https://www.iwdevelop.com/projects/rock%20paper%20scciors/",
+          demoLink: "https://silly-clarke-5e1c50.netlify.com/",
         },
         {
           id: 3,
-          cardImage: portfolio1,
+          cardImage: portfolio3,
           imageAlt: "Page Screenshot",
-          cardTitle: "Rock Paper Sccissors",
-          cardSubtitle: "Game",
+          cardTitle: "Landing Page Resume",
+          cardSubtitle: "Resume",
           cardText: ["Html5", "Css3", "jQuerry", "Javascript"],
           githubLink: "https://github.com/k4is3r",
-          demoLink:
-            "https://www.iwdevelop.com/projects/rock%20paper%20scciors/",
+          demoLink: "https://www.iwdevelop.com/projects/production1/",
         },
         {
           id: 4,
-          cardImage: portfolio1,
+          cardImage: portfolio4,
           imageAlt: "Page Screenshot",
-          cardTitle: "Rock Paper Sccissors",
-          cardSubtitle: "Game",
-          cardText: ["Html5", "Css3", "jQuerry", "Javascript"],
+          cardTitle: "Car List",
+          cardSubtitle: "App",
+          cardText: ["Html5", "Css3", "jQuerry", "Ruby On Rails"],
           githubLink: "https://github.com/k4is3r",
-          demoLink:
-            "https://www.iwdevelop.com/projects/rock%20paper%20scciors/",
+          demoLink: "https://enigmatic-garden-60350.herokuapp.com/",
         },
         {
           id: 5,
-          cardImage: portfolio1,
+          cardImage: portfolio5,
           imageAlt: "Page Screenshot",
-          cardTitle: "Rock Paper Sccissors",
+          cardTitle: "Juego de Colores",
           cardSubtitle: "Game",
-          cardText: ["Html5", "Css3", "jQuerry", "Javascript"],
+          cardText: ["Html5", "Css3", "Javascript"],
           githubLink: "https://github.com/k4is3r",
-          demoLink:
-            "https://www.iwdevelop.com/projects/rock%20paper%20scciors/",
+          demoLink: "https://www.iwdevelop.com/projects/production2/",
         },
       ],
     }
