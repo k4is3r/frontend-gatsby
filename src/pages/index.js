@@ -26,7 +26,7 @@ const IndexPage = () => (
                 Eduardo Imery
               </h1>
               <p className="lead" id="landingParagraph">
-                Front End Developer
+                Full Stack Developer
               </p>
               <Animated
                 animationIn="slideInRight"

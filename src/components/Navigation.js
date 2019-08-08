@@ -44,7 +44,7 @@ export default class Navigation extends Component {
     return (
       <Navbar className="fixed-top" expand="lg">
         <NavbarBrand href="/">
-          <span className="branding">EduardoImery</span>
+          <span className="branding">iWDevelop</span>
         </NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
@@ -65,7 +65,8 @@ export default class Navigation extends Component {
             <NavItem>
               <a
                 className="nav-link"
-                href={withPrefix("/Resume.pdf")}
+                href="https://www.linkedin.com/in/eduardo-imery-25b9b545/"
+                //{withPrefix("/Resume.pdf")}
                 target="_blank"
                 rel="noopener noreferrer"
               >
