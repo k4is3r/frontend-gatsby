@@ -8,6 +8,7 @@ import portfolio5 from "../images/portfolio5.png"
 import portfolio6 from "../images/portfolio6.png"
 import portfolio7 from "../images/portfolio7.png"
 import portfolio8 from "../images/portfolio8.png"
+import portfolio9 from "../images/portfolio9.png"
 
 export default class Projects extends Component {
   constructor(props) {
@@ -93,6 +94,16 @@ export default class Projects extends Component {
           cardText: ["Python", "Django"],
           githubLink: "https://github.com/k4is3r/stalkergram-django",
           demoLink: "http://stalkergram.iwdevelop.com",
+        },
+        {
+          id: 9,
+          cardImage: portfolio9,
+          imageAlt: "adivina",
+          cardTitle: "ChoreBot",
+          cardSubtitle: "Game",
+          cardText: ["Javascript", "Html5","CSS3"],
+          githubLink: "https://github.com/k4is3r/stalkergram-django",
+          demoLink: "https://iwdevelop.com/projects/production3/",
         },
       ],
     }
