@@ -15,14 +15,13 @@ export default class Projects extends Component {
       projects: [
         {
           id: 1,
-          cardImage: portfolio1,
-          imageAlt: "Page Screenshot",
-          cardTitle: "Rock Paper Sccissors",
-          cardSubtitle: "Game",
-          cardText: ["Html5", "CSS3", "jQuerry", "Javascript"],
+          cardImage: portfolio6,
+          imageAlt: "Sihuapilapa Resort",
+          cardTitle: "Sihuapilapa Resort",
+          cardSubtitle: "Hotel Resort page",
+          cardText: ["React", "Node", "Bootsrtrap"],
           githubLink: "https://github.com/k4is3r",
-          demoLink:
-            "https://www.iwdevelop.com/projects/rock%20paper%20scciors/",
+          demoLink: "https://sihuapilaparesort.netlify.com/",
         },
         {
           id: 2,
@@ -75,15 +74,35 @@ export default class Projects extends Component {
           demoLink: "https://sihuapilaparesort.netlify.com/",
         },
         {
+          id: 6,
+          cardImage: portfolio1,
+          imageAlt: "Page Screenshot",
+          cardTitle: "Rock Paper Sccissors",
+          cardSubtitle: "Game",
+          cardText: ["Html5", "CSS3", "jQuerry", "Javascript"],
+          githubLink: "https://github.com/k4is3r",
+          demoLink:"https://www.iwdevelop.com/projects/rock%20paper%20scciors/",
+        },
+        {
           id: 7,
           cardImage: portfolio7,
+          imageAlt: "ninatex",
+          cardTitle: "Industrias Ninatex",
+          cardSubtitle: "",
+          cardText: ["Wordpress", "CSS3", "Bootsrtrap","Javascript"],
+          githubLink: "http://www.industriasninatex.com/",
+          demoLink: "http://www.industriasninatex.com/",
+        },
+        {
+          id: 8,
+          cardImage: portfolio8,
           imageAlt: "ninatex",
           cardTitle: "Industrias Ninatex",
           cardSubtitle: "",
           cardText: ["React", "Node", "Bootsrtrap"],
           githubLink: "http://www.industriasninatex.com/",
           demoLink: "http://www.industriasninatex.com/",
-        },
+        }
       ],
     }
   }
