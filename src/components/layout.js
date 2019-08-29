@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
         <Navigation />
         <main>{children}</main>
         <footer className="text-center footer fixed-bottom">
-          © {new Date().getFullYear()} IW Develop 💚
+          © {new Date().getFullYear()} <a href="https://iwdevelop.com">IW Develop</a> 💚
         </footer>
       </>
     )}
