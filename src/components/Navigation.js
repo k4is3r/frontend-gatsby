@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Link, withPrefix } from "gatsby"
+import { Link } from "gatsby"
 import {
   Collapse,
   Navbar,
@@ -9,6 +9,7 @@ import {
   NavItem,
 } from "reactstrap"
 
+//import { Link, withPrefix } from "gatsby" never use withPrefux
 export default class Navigation extends Component {
   constructor(props) {
     super(props)
@@ -65,7 +66,7 @@ export default class Navigation extends Component {
             <NavItem>
               <a
                 className="nav-link"
-                href="https://www.linkedin.com/in/eduardo-imery-25b9b545/"
+                href="https://www.linkedin.com/in/eduardoimery/"
                 //{withPrefix("/Resume.pdf")}
                 target="_blank"
                 rel="noopener noreferrer"

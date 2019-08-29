@@ -64,7 +64,7 @@ const IndexPage = () => (
                     className="contactMainLink"
                     id="linkedinMainLink"
                     target="_blank"
-                    href="https://www.linkedin.com/in/eduardo-imery-25b9b545/"
+                    href="https://www.linkedin.com/in/eduardoimery/"
                     rel="noopener noreferrer"
                   >
                     <FaLinkedin id="iconMainLink" />

@@ -23,7 +23,7 @@ body {
 }
 
 .nav-link {
-    color: #fff;
+    color: rgb(224, 221, 221);
 }
 
 .nav-link:hover {
@@ -87,7 +87,7 @@ body {
 }
 
 #projectBtn:hover {
-    background: #fff;
+    background: rgb(212, 210, 210);
     color: rgb(17, 17, 17);
 }
 
@@ -116,17 +116,17 @@ body {
 
 #linkedInMainLink,
 #linkedInLink {
-    color: rgb(0, 127, 178);
+    color: rgb(108, 111, 112);
 }
-
+/*color normarl rgb(0, 127, 178) */
 #githubMainLink,
 #githubLink {
-    color: rgb(0, 127, 179);
+    color: rgb(108, 111, 112);
 }
 
 #twitterMainLink,
 #twitterLink {
-    color: rgb(0, 172, 237);
+    color: rgb(108, 111, 112);
 }
 
 .pageHeader {
