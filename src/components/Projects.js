@@ -5,6 +5,8 @@ import portfolio2 from "../images/portfolio2.png"
 import portfolio3 from "../images/portfolio3.png"
 import portfolio4 from "../images/portfolio4.png"
 import portfolio5 from "../images/portfolio5.png"
+import portfolio6 from "../images/portfolio6.png"
+import portfolio7 from "../images/portfolio7.png"
 
 export default class Projects extends Component {
   constructor(props) {
@@ -61,6 +63,26 @@ export default class Projects extends Component {
           cardText: ["Javascript", "CSS3", "Htlm5"],
           githubLink: "https://github.com/k4is3r",
           demoLink: "https://www.iwdevelop.com/projects/production2/",
+        },
+        {
+          id: 6,
+          cardImage: portfolio6,
+          imageAlt: "Sihuapilapa Resort",
+          cardTitle: "Sihuapilapa Resort",
+          cardSubtitle: "Hotel Resort page",
+          cardText: ["React", "Node", "Bootsrtrap"],
+          githubLink: "https://github.com/k4is3r",
+          demoLink: "https://sihuapilaparesort.netlify.com/",
+        },
+        {
+          id: 7,
+          cardImage: portfolio7,
+          imageAlt: "ninatex",
+          cardTitle: "Industrias Ninatex",
+          cardSubtitle: "",
+          cardText: ["React", "Node", "Bootsrtrap"],
+          githubLink: "http://www.industriasninatex.com/",
+          demoLink: "http://www.industriasninatex.com/",
         },
       ],
     }

@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import { Helmet } from "react-helmet"
-import { Animated } from "react-animated-css"
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { Helmet } from "react-helmet";
+import { Animated } from "react-animated-css";
 import { 
   Card, 
   CardImg, 
@@ -11,7 +11,7 @@ import {
   CardSubtitle,
   Button,
   ListGroup,
-  ListGroupItem } from 'reactstrap'
+  ListGroupItem } from "reactstrap";
 
 class Project extends Component {
   render() {
@@ -33,18 +33,10 @@ class Project extends Component {
           <Card className="mb-5 projectCard">
             <CardImg className="img-fluid" top width="100%" src={ cardImage } alt={ imageAlt } />
             <CardBody>
-              <a 
-                href={ githubLink } 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
+              <a href={ githubLink } target="_blank" rel="noopener noreferrer">
                 <Button className="mr-3 mt-3 githubBtn">View on GitHub</Button>
               </a>
-              <a 
-                href={ demoLink } 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
+              <a href={ demoLink } target="_blank" rel="noopener noreferrer">
                 <Button className="mt-3 mb-3 liveBtn">View Live Version</Button>
               </a>
               <CardTitle>{ cardTitle }</CardTitle>
@@ -63,7 +55,7 @@ class Project extends Component {
               </CardText>
             </CardBody>
           </Card>
-        </Animated> 
+        </Animated>
       </div>
     )
   }
