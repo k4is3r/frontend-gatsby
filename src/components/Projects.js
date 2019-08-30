@@ -65,7 +65,7 @@ export default class Projects extends Component {
           cardSubtitle: "Game",
           cardText: ["Html5", "CSS3", "jQuerry", "Javascript"],
           githubLink: "https://github.com/k4is3r",
-          demoLink:"https://www.iwdevelop.com/projects/rock%20paper%20scciors/",
+          demoLink:"https://iwdevelop.com/projects/rock%20paper%20scciors/",
         },
         {
           id: 6,
@@ -75,7 +75,7 @@ export default class Projects extends Component {
           cardSubtitle: "Game",
           cardText: ["Javascript", "CSS3", "Htlm5"],
           githubLink: "https://github.com/k4is3r/juegoColores",
-          demoLink: "https://www.iwdevelop.com/projects/production2/",
+          demoLink: "https://iwdevelop.com/projects/production2/",
         },
         {
           id: 7,
@@ -95,7 +95,7 @@ export default class Projects extends Component {
           cardSubtitle: "Resume",
           cardText: ["Html5", "CSS3", "jQuerry", "Javascript"],
           githubLink: "https://github.com/k4is3r",
-          demoLink: "https://www.iwdevelop.com/projects/production1/",
+          demoLink: "https://iwdevelop.com/projects/production1/",
         },
         {
           id: 9,
