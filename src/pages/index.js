@@ -22,12 +22,18 @@ const IndexPage = () => (
         <div className="container" id="landingWrapper">
           <div className="row">
             <div className="col-md-12 text-center">
+              <br/>
+              <br/>
+              <br/>
+              
               <h1 className="display-3 mb-4" id="landingHeader">
                 Eduardo Imery
               </h1>
               <p className="lead" id="landingParagraph">
-                Full Stack Developer
+                Software & Cloud Engineer
               </p>
+              <br/>
+              <br/>
               <Animated
                 animationIn="slideInRight"
                 animationOut="fadeOut"
