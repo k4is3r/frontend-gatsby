@@ -7,7 +7,7 @@ import Projects from '../components/Projects'
 const myWork = () => (
   <Layout>
     <SEO title="My Work" keywords={[`gatsby`, `application`, `react`]} />
-    <Header headingTitle="My Work" />
+    <Header headingTitle="Personal Projects" />
     <Projects />
   </Layout>
 )
