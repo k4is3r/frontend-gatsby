@@ -72,9 +72,6 @@ body {
     font-size: 2.5rem !important;
 }
 
-.display-4{
-    font-size: 2.5rem !important;
-}
 .dark-overlay {
     background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
@@ -87,6 +84,18 @@ body {
 .landingIcons {
     display: flex;
     justify-content: center;
+}
+
+#contactText{
+    font-size: 1rem!important;
+}
+
+.contactHeader {
+    font-size: 2rem!important;
+}
+
+.pageHeader {
+    font-size: 2rem!important;
 }
 
 #projectBtn {
@@ -107,7 +116,7 @@ body {
 }
 
 .contactLink {
-    font-size: 4rem;
+    font-size: 2rem;
     margin: 10px 30px;
 }
 
@@ -123,9 +132,8 @@ body {
     background: #e6e6e6;
     transform: rotate(360deg)
 }
-
-#linkedInMainLink,
-#linkedInLink {
+#linkedinMainLink,
+#linkedinLink{
     color: rgb(108, 111, 112);
 }
 /*color normarl rgb(0, 127, 178) */
@@ -170,6 +178,9 @@ body {
 .skills {
     margin-bottom: 100px;
 }
+#email{
+    font-size: 1.3rem!important;
+}
 
 #aboutText {
     font-size: 1.25rem;
@@ -179,10 +190,6 @@ body {
 .contactWrapper {
     margin-bottom: 150px;
     color: #e6e6e6 !important;
-}
-
-#email {
-    font-size: 2rem;
 }
 
 .postList {
@@ -218,9 +225,7 @@ footer {
     .branding {
         font-size: 1rem;
     }
-    .display-4{
-        font-size: 1.5rem !important;
-    }
+ 
     .navbar .navbar-toggler-icon {
         font-size: 1rem;
     }
